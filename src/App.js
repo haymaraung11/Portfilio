@@ -5,6 +5,7 @@ import Header from './templates/Header';
 import Projects from './templates/Projects';
 import Resume from './templates/Resume';
 import Contact from './templates/Contact';
+import Footer from './templates/Footer';  
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
+            <Footer />
         </Router>
     </div>
     
