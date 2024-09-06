@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import About from './templates/About';
 import Header from './templates/Header';
-import Project from './templates/Project';
+import Projects from './templates/Projects';
 import Resume from './templates/Resume';
 import Contact from './templates/Contact';
 
@@ -16,7 +16,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<About />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/project" element={<Project />} />
+                    <Route path="/projects" element={<Projects />} />
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>

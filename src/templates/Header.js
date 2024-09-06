@@ -18,8 +18,8 @@ const Header = () => {
                                 <FontAwesomeIcon icon={faInfoCircle} 
                                 className="mx-2" /> 
                             </Nav.Link> 
-                            <Nav.Link as={Link} to="/project"> 
-                                <span>Project</span> 
+                            <Nav.Link as={Link} to="/projects"> 
+                                <span>Projects</span> 
                                 <FontAwesomeIcon icon={faCode} 
                                 className="mx-2" /> 
                             </Nav.Link>

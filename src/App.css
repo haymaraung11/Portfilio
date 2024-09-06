@@ -27,3 +27,54 @@
   height: 100%;
   object-fit: cover;
 }
+/* Resume */
+.resume-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.resume-download-btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.skills-section {
+  text-align: left;
+}
+
+.skills-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.professional-info {
+  text-align: left;
+}
+
+.professional-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #343a40;
+}
